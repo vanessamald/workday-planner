@@ -15,8 +15,20 @@ $(".saveBtn").click(function() {
 
     // local storage
     localStorage.setItem(taskHour, textarea); 
-
-    // get info from local storage
-    localStorage.getItem(taskHour, textarea);  
 });
+
+// get info from local storage for each hour 
+$("#eight .text").val(localStorage.getItem("eight"));
+$("#nine .text").val(localStorage.getItem("nine"));
+$("#ten .text").val(localStorage.getItem("ten"));
+$("#eleven .text").val(localStorage.getItem("eleven"));
+$("#twelve .text").val(localStorage.getItem("twelve"));
+$("#one .text").val(localStorage.getItem("one"));
+$("#two .text").val(localStorage.getItem("two"));
+$("#three .text").val(localStorage.getItem("three"));
+$("#four .text").val(localStorage.getItem("four"));
+$("#five .text").val(localStorage.getItem("five"));
+
+
+
 
