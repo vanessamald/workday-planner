@@ -16,4 +16,10 @@
 - WHEN I refresh the page
 - THEN the saved events persist
 
+<br>
+
+https://vanessamald.github.io/workday-planner/
+
+<br>
+
 <img src= "assets/images/work-day-screenshot.jpg" >
