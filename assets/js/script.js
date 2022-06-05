@@ -3,9 +3,8 @@ $("#currentDay").text(moment().format('MMMM Do YYYY, h:mm:ss a'));
 
 // function to save tasks
 $(".saveBtn").click(function() {
-    // get time 
+    // get time and task
     var taskHour = $(this).attr("data");
-    // get task 
     var textarea = $(this).siblings("#tasks").val();
     console.log(taskHour);
     console.log(textarea);
@@ -34,7 +33,7 @@ function checkHour() {
     // loop through each time block 
     $(".time-block").each(function () {
 
-    // check for textarea time
+    // get time for corresponding block
     var sectionTime = parseInt($(this).attr("id")); 
     console.log(currentTime, sectionTime);
     //console.log(this);
