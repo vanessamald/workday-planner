@@ -1,11 +1,15 @@
-.future {
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.future-tasks {
     background-color: green;
 }
 
-.past {
+.present-tasks {
     background-color: red;
 }
 
-.present {
-    background-color: gray;
+.past-tasks {
+    background-color: darkgrey;
 }
